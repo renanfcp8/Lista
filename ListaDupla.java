@@ -44,7 +44,6 @@ public class ListaDupla {
         }
 
         if (temp == null) {
-            // inserir no final
             inserirNoFinal(valor);
         } else {
             NoDuplo novo = new NoDuplo(valor);
@@ -91,7 +90,7 @@ public class ListaDupla {
             i++;
         }
 
-        if (temp == null) return; // posição fora do alcance
+        if (temp == null) return; 
 
         if (temp == fim) {
             removerNoFinal();
@@ -146,3 +145,4 @@ public class ListaDupla {
         System.out.println("Tamanho da lista dupla: " + lista.tamanho());
     }
 }
+
